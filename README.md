@@ -14,7 +14,8 @@ Ensure you have **Python 3.8+** installed. Install required dependencies:
 
 pip install requests beautifulsoup4 pandas openpyxl
 
-###**Configure SEC Headers**
+### **Configure SEC Headers**
+
 Update the script with your email address for SEC API compliance:
 HEADERS = {'User-Agent': 'Your Name (your_email@example.com)'}
 
