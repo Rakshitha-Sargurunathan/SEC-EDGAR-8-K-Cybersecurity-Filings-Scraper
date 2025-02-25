@@ -14,11 +14,11 @@ Ensure you have **Python 3.8+** installed. Install required dependencies:
 
 pip install requests beautifulsoup4 pandas openpyxl
 
-###** Configure SEC Headers**
+###**Configure SEC Headers**
 Update the script with your email address for SEC API compliance:
 HEADERS = {'User-Agent': 'Your Name (your_email@example.com)'}
 
-### R**un the Script **
+### **Run the Script**
 python sec_8k_scraper.py
 
 📊 **How It Works**
@@ -28,11 +28,10 @@ python sec_8k_scraper.py
 * Saves results (found/not found) with filing dates back to CSV.
 
 📝 **Sample Output**
-CIK	    Year	8-K Found	  Filing Dates
-789019	2023	1	          2023-05-18, 2023-12-22
-789019	2024	1         	2024-03-15
 
-🚀** Future Enhancements**
+![image](https://github.com/user-attachments/assets/4996cee4-a73a-40e1-8c30-72a3b243201f)
+
+🚀**Future Enhancements**
 * Expand search to 10-K, 10-Q filings for broader cybersecurity insights.
 * Improve parallel processing for faster execution.
 * Add natural language processing (NLP) to refine keyword detection.
