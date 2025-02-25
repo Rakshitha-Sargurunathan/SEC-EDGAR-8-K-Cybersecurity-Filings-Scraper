@@ -11,9 +11,8 @@ This project is a Python-based web scraper designed to extract cybersecurity-rel
 ## 🛠️ Setup & Installation
 ### Prerequisites
 Ensure you have **Python 3.8+** installed. Install required dependencies:
-```bash
+
 pip install requests beautifulsoup4 pandas openpyxl
-```bash
 
 ###** Configure SEC Headers**
 Update the script with your email address for SEC API compliance:
